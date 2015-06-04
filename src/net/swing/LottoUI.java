@@ -54,7 +54,7 @@ public class LottoUI extends JFrame implements ActionListener {
 
 	private void makeBtns() {
 		JButton tmp = null;
-		for(int i = 0 ; i <= 6 ; i++){
+		for(int i = 0 ; i < 6 ; i++){
 			tmp = new JButton();
 			btns.add(tmp);
 			pan_sth.add(tmp);
